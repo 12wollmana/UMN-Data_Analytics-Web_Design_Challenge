@@ -12,7 +12,7 @@
 
     <title>Latitude - Comparisons</title>
   </head>
-  <body>
+  <body class="bg-secondary">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="index.html">
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-globe" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -54,37 +54,124 @@
           <div class="jumbotron">
             <h1 class="display-4">Comparisons</h1>
             <p class="lead">Compare all plots to see how latitude influences weather.</p>
-            <hr class="my-4">
-            <p>Below are all of the plots on this website. Click on any of the plots to get a detailed analysis.</p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 col-sm-12">
-          <figure class="figure">
-            <img src="resources/assets/images/Fig1.png" class="figure-img img-fluid rounded" alt="City Latitude vs. Max Temperature">
-            <figcaption class="figure-caption text-center">City Latitude vs. Max Temperature</figcaption>
-          </figure>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">City Latitude vs. Max Temperature</h5>
+              <a href="#" data-toggle="modal" data-target="#modal-1">
+                <img src="resources/assets/images/Fig1.png" class="card-img-top" alt="City Latitude vs. Max Temperature">
+              </a>
+              <a href="visualizations/vis_1.html" class="card-link">More Info</a>
+          </div>
+          </div>
+          <br>
         </div>
         <div class="col-md-6 col-sm-12">
-          <figure class="figure">
-            <img src="resources/assets/images/Fig2.png" class="figure-img img-fluid rounded" alt="City Latitude vs. Humidity">
-            <figcaption class="figure-caption text-center">City Latitude vs. Humidity</figcaption>
-          </figure>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">City Latitude vs. Humidity</h5>
+              <a href="#" data-toggle="modal" data-target="#modal-2">
+                <img src="resources/assets/images/Fig2.png" class="card-img-top" alt="City Latitude vs. Humidity">
+              </a>
+              <a href="visualizations/vis_2.html" class="card-link">More Info</a>
+            </div>
+          </div>
+          <br>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 col-sm-12">
-          <figure class="figure">
-            <img src="resources/assets/images/Fig3.png" class="figure-img img-fluid rounded" alt="City Latitude vs. Cloudiness">
-            <figcaption class="figure-caption text-center">City Latitude vs. Cloudiness</figcaption>
-          </figure>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">City Latitude vs. Cloudiness</h5>
+              <a href="#" data-toggle="modal" data-target="#modal-3">
+                <img src="resources/assets/images/Fig3.png" class="card-img-top" alt="City Latitude vs. Cloudiness">
+              </a>
+              <a href="visualizations/vis_3.html" class="card-link">More Info</a>
+            </div>
+          </div>
+          <br>
         </div>
         <div class="col-md-6 col-sm-12">
-          <figure class="figure">
-            <img src="resources/assets/images/Fig4.png" class="figure-img img-fluid rounded" alt="City Latitude vs. Wind Speed">
-            <figcaption class="figure-caption text-center">City Latitude vs. Wind Speed</figcaption>
-          </figure>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">City Latitude vs. Wind Speed</h5>
+              <a href="#" data-toggle="modal" data-target="#modal-4">
+                <img src="resources/assets/images/Fig4.png" class="card-img-top" alt="City Latitude vs. Wind Speed">
+              </a>
+              <a href="visualizations/vis_4.html" class="card-link">More Info</a>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Popups -->
+    <div class="modal fade" id="modal-1" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">City Latitude vs. Max Temperature</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/assets/images/Fig1.png" class="img-fluid" alt="City Latitude vs. Max Temperature">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">City Latitude vs. Humidity</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/assets/images/Fig2.png" class="img-fluid" alt="City Latitude vs. Humidity">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-3" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">City Latitude vs. Cloudiness</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/assets/images/Fig3.png" class="img-fluid" alt="City Latitude vs. Cloudiness">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-4" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">City Latitude vs. Wind Speed</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="resources/assets/images/Fig4.png" class="img-fluid" alt="City Latitude vs. Wind Speed">
+          </div>
         </div>
       </div>
     </div>
