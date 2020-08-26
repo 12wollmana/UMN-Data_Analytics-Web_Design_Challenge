@@ -2,3 +2,15 @@
     bottom: 2px;
     position: relative;
 }
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 1rem;
+}
+
+.navbar-nav{
+    padding: 0 1rem;
+}
