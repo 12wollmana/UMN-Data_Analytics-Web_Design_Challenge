@@ -2,11 +2,15 @@
     background-color: var(--primary)
 }
 
+.bg-resize .navbar-nav{
+    background-color: var(--dark)
+}
+
 @media(min-width: 768px){
     .bg-resize .navbar-brand{
         background-color: var(--primary)
     }
-    
+
     .bg-resize {
         background-color: var(--dark)
     }
