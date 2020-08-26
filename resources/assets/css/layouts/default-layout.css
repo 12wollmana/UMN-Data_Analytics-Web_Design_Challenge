@@ -14,3 +14,13 @@
 .navbar-nav{
     padding: 0 1rem;
 }
+
+.nav-item:hover svg{
+    display: inline-block;
+}
+
+.nav-item svg{
+    display: none;
+    bottom: 2px;
+    position: relative;
+}
