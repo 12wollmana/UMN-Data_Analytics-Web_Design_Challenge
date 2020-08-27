@@ -15,12 +15,7 @@
     padding: 0 1rem;
 }
 
-.nav-item:hover svg{
-    display: inline-block;
-}
-
 .nav-item svg{
-    display: none;
     bottom: 2px;
     position: relative;
 }
@@ -39,5 +34,13 @@
         transform: scale(1.4);
         z-index: 1!important;
         border-radius: 2px;
+    }
+
+    .nav-item:hover svg{
+        display: inline-block;
+    }
+
+    .nav-item svg{
+        display: none;
     }
 }
