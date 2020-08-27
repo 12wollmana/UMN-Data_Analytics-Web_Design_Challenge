@@ -6,6 +6,10 @@
     background-color: var(--dark)
 }
 
+.thumb {
+    background-color: var(--white)
+}
+
 @media(min-width: 768px){
     .bg-resize .navbar-brand{
         background-color: var(--primary)
@@ -13,5 +17,9 @@
 
     .bg-resize {
         background-color: var(--dark)
+    }
+
+    .thumb:hover {
+        border: 1px solid #dee2e6; 
     }
 }
