@@ -24,6 +24,13 @@
     padding: 5px;
 }
 
+.versus {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
 @media(min-width: 768px){
     .thumb{
         transition: transform .2s;
