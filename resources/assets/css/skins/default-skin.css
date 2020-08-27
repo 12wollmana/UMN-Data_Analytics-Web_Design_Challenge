@@ -10,6 +10,11 @@
     background-color: var(--white)
 }
 
+.thumb-active {
+    border: 2px solid var(--primary); 
+    border-radius: 5px;
+}
+
 @media(min-width: 768px){
     .bg-resize .navbar-brand{
         background-color: var(--primary)
@@ -21,5 +26,9 @@
 
     .thumb:hover {
         border: 1px solid #dee2e6; 
+    }
+
+    .thumb-active:hover {
+        border: 2px solid var(--primary); 
     }
 }
