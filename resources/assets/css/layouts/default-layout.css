@@ -31,6 +31,36 @@
     white-space: nowrap;
 }
 
+.table-card {
+    overflow-y: scroll;
+    overflow-x: auto;
+    height: 20rem;
+}
+
+.table-card .table th{
+    position: sticky;
+    top: 0px;
+}
+
+.table-card .table th:nth-child(2),
+.table-card .table td:nth-child(2){
+    position: sticky;
+    left: 0px;    
+} 
+
+.table-card .table th:nth-child(2){
+    z-index: 2;
+}
+
+.table-card .table td:nth-child(2){
+    z-index: 1;
+}
+
+.table-card .table td:nth-child(2){
+    box-shadow: -.1px 0 inset black;
+    background-clip: padding-box;
+}
+
 @media(min-width: 768px){
     .thumb{
         transition: transform .2s;

@@ -15,6 +15,22 @@
     border-radius: 5px;
 }
 
+.table-card .table tr:nth-child(odd){
+    background-color: var(--light);
+}
+
+.table-card .table tr:nth-child(odd){
+    background-color: var(--light);
+}
+
+.table-card .table tr:nth-child(odd) td:nth-child(2){
+    background-color: var(--light);
+}
+
+.table-card .table tr:nth-child(even) td:nth-child(2){
+    background-color: var(--white);
+}
+
 @media(min-width: 768px){
     .bg-resize .navbar-brand{
         background-color: var(--primary)
